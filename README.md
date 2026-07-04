@@ -39,4 +39,4 @@ The Privacy Policy for this application is available in both English and Hungari
 - **Contact:** balazs.volcsei@gmail.com
 
 ---
-*Shared List - Organize together, stay in sync.*
+*Shared List - Note. Share. Done.*
