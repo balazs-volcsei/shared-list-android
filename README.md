@@ -25,6 +25,14 @@
 - **Local Storage:** Room Database for caching & DataStore for settings.
 - **Navigation:** Type-safe Navigation Compose.
 
+## Screenshots
+
+<p align="center">
+<img width="1280" height="720" alt="sharedlist-social-preview" src="https://github.com/user-attachments/assets/419040e9-edf5-4b3a-be6b-ce8bc3523b4f" />
+
+<br/>
+<br/>
+
 ## Privacy Policy
 
 The Privacy Policy for this application is available in both English and Hungarian:  
@@ -32,11 +40,12 @@ The Privacy Policy for this application is available in both English and Hungari
 
 ## Developer
 
-**Völcsei Balázs E.V.**  
-*Professional Android Developer*
+**Balázs Völcsei**  
+*Android Developer*
 
-- **Website:** [balazs-volcsei](https://sites.google.com/view/balazs-volcsei/home)  
-- **Contact:** balazs.volcsei@gmail.com
+- **LinkedIn:** [balazs-volcsei](https://www.linkedin.com/in/balazs-volcsei/)
+- **Website:** [balazs-volcsei](https://sites.google.com/view/balazs-volcsei/home)
+- **Email:** balazs.volcsei@gmail.com
 
 ---
 *Shared List - Note. Share. Done.*
