@@ -1,5 +1,6 @@
 # Privacy Policy / Adatvédelmi Irányelvek
 
+**Project / Projekt:** Shared List - Android  
 **Developer / Fejlesztő:** Völcsei Balázs E.V.  
 **Contact / Kapcsolat:** balazs.volcsei@gmail.com  
 **Website / Weboldal:** [balazs-volcsei](https://sites.google.com/view/balazs-volcsei/home)  
