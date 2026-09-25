@@ -17,7 +17,7 @@ This Privacy Policy explains how **Shared List** ("we", "us", or "our") collects
 To provide and improve our service, we collect several types of information:
 *   **Account Information:** When you sign in using Google, we collect your email address, display name, and profile picture URL. This is used to identify you and sync your lists across devices.
 *   **User Content:** We store the checklists, items, and descriptions you create. This data is stored securely in Google Firebase and is only accessible by you and the users you explicitly choose to share your lists with.
-*   **Usage Data:** We use Firebase Analytics to collect anonymous information on app usage (e.g., button clicks, screen views) to improve the user experience.
+*   **Usage Data:** We use Firebase Analytics to collect anonymous information on app usage (e.g., button clicks, screen views) to improve the user experience. **You can opt out of anonymous analytics collection at any time through the Settings menu within the app.**
 
 ### 3. Third-Party Services
 The app uses third-party services that may collect information used to identify you:
@@ -46,7 +46,7 @@ Ez az adatvédelmi irányelv leírja, hogyan gyűjti, használja és védi a **S
 A szolgáltatás biztosítása és fejlesztése érdekében többféle információt gyűjtünk:
 *   **Fiókadatok:** A Google-lal való bejelentkezéskor gyűjtjük az Ön e-mail címét, megjelenített nevét és profilképének URL-jét. Ezt az Ön azonosítására és a listák eszközök közötti szinkronizálására használjuk.
 *   **Felhasználói tartalom:** Tároljuk az Ön által létrehozott listákat, elemeket és leírásokat. Ezek az adatok biztonságosan a Google Firebase rendszerében tárolódnak, és csak Ön, valamint az Ön által kifejezetten meghívott partnerek számára hozzáférhetőek.
-*   **Használati adatok:** A Firebase Analytics segítségével névtelen adatokat gyűjtünk az alkalmazás használatáról (pl. gombnyomások, képernyőmegnyitások) a felhasználói élmény javítása érdekében.
+*   **Használati adatok:** A Firebase Analytics segítségével névtelen adatokat gyűjtünk az alkalmazás használatáról (pl. gombnyomások, képernyőmegnyitások) a felhasználói élmény javítása érdekében. **A névtelen analitikai adatok gyűjtését Ön bármikor letilthatja az alkalmazás Beállítások menüpontján keresztül.**
 
 ### 3. Harmadik fél által nyújtott szolgáltatások
 Az alkalmazás harmadik féltől származó szolgáltatásokat használ, amelyek adatokat gyűjthetnek az Ön azonosítására:
