@@ -1,12 +1,14 @@
-# Terms of Service
+# Terms of Service / Felhasználási Feltételek
 
-**Project:** Shared List - Android  
-**Developer:** Völcsei Balázs E.V.  
-**Contact:** balazs.volcsei@gmail.com  
-**Website:** [balazs-volcsei](https://sites.google.com/view/balazs-volcsei/home)  
-**Effective Date:** 2026.10.09  
+**Project / Projekt:** Shared List - Android  
+**Developer / Fejlesztő:** Völcsei Balázs E.V.  
+**Contact / Kapcsolat:** balazs.volcsei@gmail.com  
+**Website / Weboldal:** [balazs-volcsei](https://sites.google.com/view/balazs-volcsei/home)  
+**Effective Date / Hatálybalépés:** 2026.10.10  
 
 ---
+
+## English Version
 
 ### 1. Acceptance of Terms
 By downloading, accessing, or using the **Shared List** mobile application ("App", "Service"), provided by **Völcsei Balázs E.V.** ("Developer", "we", "us", "our"), you agree to be bound by these Terms of Service. If you do not agree to these terms, do not use the Service.
@@ -52,3 +54,52 @@ These Terms shall be governed by and construed in accordance with the laws of **
 ### 10. Contact Us
 If you have any questions regarding these Terms of Service, please contact:  
 **Email:** balazs.volcsei@gmail.com
+
+---
+
+## Magyar Nyelvű Változat
+
+### 1. A feltételek elfogadása
+A **Shared List** mobilalkalmazás („Alkalmazás”, „Szolgáltatás”) letöltésével, elérésével vagy használatával Ön magára nézve kötelezőnek ismeri el a jelen Felhasználási Feltételeket, amelyet **Völcsei Balázs E.V.** („Fejlesztő”, „mi”) nyújt. Amennyiben nem ért egyet a feltételekkel, kérjük, ne használja a Szolgáltatást.
+
+### 2. A feltételek módosítása (Egyoldalú módosítás joga)
+A Fejlesztő kifejezetten fenntartja a jogot, hogy a jelen Felhasználási Feltételeket bármikor, saját belátása szerint, egyoldalúan módosítsa vagy frissítse előzetes külön értesítés nélkül.
+* A módosítások a frissített változat Alkalmazásban vagy a hivatalos weboldalon történő közzétételével azonnal hatályba lépnek.
+* Az Alkalmazás további használata a módosítások közzétételét követően a frissített feltételek kifejezett és kötelező érvényű elfogadásának minősül.
+* Amennyiben a módosított feltételekkel nem ért egyet, a Szolgáltatás használatát be kell fejeznie, és fiókját törölheti.
+
+### 3. Felhasználói fiókok és hitelesítés
+* A listák szinkronizálásához és megosztásához érvényes Google-fiókkal történő bejelentkezés szükséges.
+* Ön teljes felelősséggel tartozik a fiókjához tartozó hozzáférési adatok biztonságáért és a fiókon keresztül végzett minden tevékenységért.
+* Kérjük, haladéktalanul jelezze, amennyiben a fiókjával kapcsolatos jogosulatlan hozzáférést tapasztal.
+
+### 4. Felhasználói tartalom és megosztott listák
+* **Tulajdonjog:** Ön megtartja a teljes tulajdonjogát minden olyan lista, elem, megjegyzés és leírás („Tartalom”) felett, amelyet az Alkalmazásban rögzít.
+* **Működési licenc:** A Tartalom létrehozásával Ön világszintű, nem kizárólagos, díjmentes felhasználási jogot biztosít számunkra a Tartalom tárolására, szinkronizálására és megjelenítésére kizárólag a Szolgáltatás biztosítása és az Ön által meghívott felhasználók felé történő megjelenítés céljából.
+* **Közös szerkesztés:** Amikor megoszt egy listát más felhasználókkal, felhatalmazza őket az adott lista elemeinek megtekintésére, szerkesztésére, teljesítésére vagy törlésére az alkalmazás jogosultsági rendszere szerint. A meghívott partnerek tevékenységéért és az általuk végzett módosításokért a Fejlesztő felelősséget nem vállal.
+* **Tiltott tevékenységek:** Tilos az Alkalmazást jogellenes, zaklató, kártékony, szerzői jogokat sértő vagy visszaélésszerű tartalmak tárolására vagy megosztására használni.
+
+### 5. Alkalmazáson belüli előfizetések és fizetés
+* **Google Play számlázás:** A prémium előfizetések és digitális funkciók vásárlása kizárólag a Google Play In-App Billing rendszerén keresztül zajlik. Pénzügyi vagy bankkártyaadatokat a Fejlesztő nem kezel és nem tárol.
+* **Megújítás és lemondás:** Az előfizetések automatikusan megújulnak, kivéve, ha az aktuális számlázási periódus lejárta előtt lemondja azokat a Google Play fiókjának előfizetési beállításaiban.
+* **Visszatérítés:** A pénzvisszafizetési kérelmekre a Google Play Áruház hivatalos szabályzata vonatkozik.
+
+### 6. Ingyenes verzió és hirdetések
+* Az Alkalmazás ingyenes verziójában a Google AdMob hálózatán keresztül hirdetések jelenhetnek meg.
+* Az AdMob hálózata eszközazonosítókat használhat az Adatvédelmi Irányelvekben rögzített feltételek szerint.
+
+### 7. Rendelkezésre állás, offline működés és felelősségkizárás
+* Az Alkalmazás felhőalapú szinkronizációt és offline gyorsítótárazást biztosít. Bár törekszünk a stabil működésre, nem garantáljuk a folyamatos, hibamentes elérést, sem azt, hogy egyidejű offline módosítások esetén nem lép fel szinkronizációs ütközés vagy adatfelülírás.
+* **„Adott állapotban” történő nyújtás:** A Szolgáltatás „ADOTT ÁLLAPOTBAN” („AS IS”) és „ELÉRHETŐSÉG SZERINT” működik. A hatályos jogszabályok által megengedett legteljesebb mértékben a Fejlesztő kizár minden kifejezett vagy hallgatólagos szavatosságot.
+* A Fejlesztő nem vállal felelősséget a hálózati hibákból, felhőszolgáltatói kimaradásokból vagy eszközhibákból származó adatvesztésekért vagy listák sérüléséért.
+
+### 8. Fiók törlése és megszüntetése
+* Ön bármikor törölheti fiókját és adatait az Alkalmazás **Beállítások** menüjében található fióktörlési funkcióval.
+* A Fejlesztő fenntartja a jogot a jelen feltételeket megsértő vagy a rendszert visszaélésszerűen használó fiókok azonnali felfüggesztésére vagy megszüntetésére.
+
+### 9. Irányadó jog és joghatóság
+A jelen Feltételekre és azok értelmezésére **Magyarország** joga az irányadó. A felek a vitás kérdéseket békés úton kísérlik meg rendezni, ennek sikertelensége esetén a hatáskörrel és illetékességgel rendelkező magyar bíróságok kizárólagos joghatóságát kötik ki.
+
+### 10. Kapcsolat
+Amennyiben kérdése van a Felhasználási Feltételekkel kapcsolatban, forduljon hozzánk bizalommal:  
+**E-mail:** balazs.volcsei@gmail.com
