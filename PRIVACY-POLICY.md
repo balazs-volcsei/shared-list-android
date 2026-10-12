@@ -4,7 +4,7 @@
 **Developer / Fejlesztő:** Völcsei Balázs E.V.  
 **Contact / Kapcsolat:** balazs.volcsei@gmail.com  
 **Website / Weboldal:** [balazs-volcsei](https://sites.google.com/view/balazs-volcsei/home)  
-**Last Updated / Utoljára frissítve:** 2026.10.10  
+**Last Updated / Utoljára frissítve:** 2026.10.12  
 
 ---
 
@@ -38,13 +38,13 @@ If you reside in the European Economic Area (EEA), our legal grounds for process
 *   **Legitimate interests:** To monitor application stability, fix crashes, and optimize performance.
 *   **Consent:** For ad personalization through Google AdMob and optional analytics.
 
-Under the General Data Protection Regulation (GDPR), you have the right to access, rectify, port, or erase your data, as well as the right to restrict or object to certain processing operations. You can execute full data erasure at any time in the app’s **Settings** menu, or by contacting us at **balazs.volcsei@gmail.com**.
+Under the General Data Protection Regulation (GDPR), you have the right to access, rectify, port, or erase your data, as well as the right to restrict or object to certain processing operations. You can execute full account and data erasure at any time through the in-app **Settings** menu or by submitting our online [Account Deletion Request Form](https://forms.gle/Qs1NFNN1C1GR2w3d6). For inquiries regarding your other privacy rights, you can contact us at **balazs.volcsei@gmail.com**.
 
 ### 7. Changes to This Privacy Policy
 We reserve the right to update this Privacy Policy periodically. Any changes will be posted within the app or on this page and will take effect immediately upon publication. We encourage you to review this policy periodically.
 
 ### 8. Contact Us
-If you have any questions, feedback, or requests regarding this Privacy Policy or your personal data, please contact us at:  
+If you have any questions, feedback, or general inquiries regarding this Privacy Policy, please contact us at:  
 **Email:** balazs.volcsei@gmail.com
 
 ---
@@ -79,11 +79,11 @@ Amennyiben az Európai Gazdasági Térségben (EGT) tartózkodik, az adatkezelé
 *   **Jogos érdek:** Az alkalmazás stabilitásának fenntartásához és a hibák javításához (Firebase).
 *   **Hozzájárulás:** A személyre szabott hirdetések megjelenítéséhez (AdMob) és az opcionális analitikához.
 
-A GDPR alapján Ön jogosult kérni a személyes adataihoz való hozzáférést, azok helyesbítését, hordozását vagy végleges törlését, valamint tiltakozhat az adatkezelés ellen. A teljes fiók- és adattörlést bármikor önállóan elvégezheti az alkalmazás **Beállítások** menüpontjában, vagy kérheti a **balazs.volcsei@gmail.com** e-mail címen.
+A GDPR alapján Ön jogosult kérni a személyes adataihoz való hozzáférést, azok helyesbítését, hordozását vagy végleges törlését, valamint tiltakozhat az adatkezelés ellen. A teljes fiók- és adattörlést bármikor önállóan elvégezheti az alkalmazás **Beállítások** menüpontjában, vagy a hivatalos [Fióktörlési Kérelem Űrlap](https://forms.gle/Qs1NFNN1C1GR2w3d6) kitöltésével. Egyéb adatvédelmi jogainak gyakorlásával kapcsolatban a **balazs.volcsei@gmail.com** e-mail címen veheti fel velünk a kapcsolatot.
 
 ### 7. Az Adatvédelmi Irányelvek módosítása
 Fenntartjuk a jogot az Adatvédelmi Irányelvek időszakos felülvizsgálatára és egyoldalú frissítésére. A módosítások a közzététellel azonnal hatályba lépnek. Javasoljuk, hogy rendszeresen tekintse át ezt az oldalt.
 
 ### 8. Kapcsolat
-Ha bármilyen kérdése, észrevétele vagy adataival kapcsolatos kérése van, forduljon hozzánk bizalommal:  
+Ha bármilyen kérdése, észrevétele vagy általános megkeresése van a jelen Adatvédelmi Irányelvekkel kapcsolatban, forduljon hozzánk bizalommal:  
 **E-mail:** balazs.volcsei@gmail.com
