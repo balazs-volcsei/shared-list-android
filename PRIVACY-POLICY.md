@@ -27,7 +27,7 @@ The app uses third-party services that may collect information used to identify 
 *   **Google AdMob:** Displays advertisements to free users. AdMob may use device identifiers to serve personalized ads.
 
 ### 4. Data Retention and Deletion
-We retain your data for as long as your account is active. You have the right to delete your account and all associated data (lists, items, and profile information) at any time through the **Settings** menu within the app. This action is permanent and cannot be undone.
+We retain your data for as long as your account is active. You have the right to delete your account and all associated data (lists, items, and profile information) at any time through the **Settings** menu within the app, or by submitting our online [Account Deletion Request Form](https://forms.gle/Qs1NFNN1C1GR2w3d6). This action is permanent and cannot be undone.
 
 ### 5. Security
 We value your trust in providing us your information and strive to use commercially acceptable means of protecting it. However, please be aware that no method of transmission over the internet or electronic storage is 100% secure and reliable.
@@ -68,7 +68,7 @@ Az alkalmazás harmadik féltől származó szolgáltatásokat használ, amelyek
 *   **Google AdMob:** Hirdetéseket jelenít meg az ingyenes verziót használók számára. Az AdMob eszközazonosítókat használhat személyre szabott hirdetésekhez.
 
 ### 4. Adattörlés és megőrzés
-Adatait addig őrizzük meg, amíg fiókja aktív. Önnek bármikor joga van törölni fiókját és az összes kapcsolódó adatot (listák, elemek, profiladatok) az alkalmazás **Beállítások** menüpontján keresztül. Ez a folyamat végleges és visszaállíthatatlan.
+Adatait addig őrizzük meg, amíg fiókja aktív. Önnek bármikor joga van törölni fiókját és az összes kapcsolódó adatot (listák, elemek, profiladatok) az alkalmazás **Beállítások** menüpontján keresztül, vagy a hivatalos [Fióktörlési Kérelem Űrlap](https://forms.gle/Qs1NFNN1C1GR2w3d6) kitöltésével. Ez a folyamat végleges és visszaállíthatatlan.
 
 ### 5. Biztonság
 Nagyra értékeljük az adatai megadásával tanúsított bizalmat, ezért kereskedelmileg elfogadható eszközökkel védjük azokat. Kérjük, vegye figyelembe, hogy az interneten keresztül történő adattovábbítás vagy elektronikus tárolás egyetlen módszere sem garantálható 100%-ban biztonságosnak.
