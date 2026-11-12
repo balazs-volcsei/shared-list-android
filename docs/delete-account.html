@@ -43,7 +43,7 @@
       <section id="english">
         <h2>English Version</h2>
         <p>
-          Users of <strong>Shared List</strong> can permanently delete their account and all associated cloud data at any time—either immediately inside the application or via the online request options below if the app has been uninstalled.
+          Users of <strong>Shared List</strong> can permanently delete their account and all associated cloud data at any time—either immediately inside the application or via the online request form below if the app has been uninstalled.
         </p>
 
         <h3>Option 1: Delete Your Account Inside the App (Immediate)</h3>
@@ -67,7 +67,7 @@
 
         <h3>Processing Timeline</h3>
         <p>
-          In-app deletions are executed immediately. Web form and email requests are verified and permanently completed within <strong>30 days</strong> of receipt.
+          In-app deletions are executed immediately. Web form requests are verified and permanently completed within <strong>30 days</strong> of receipt.
         </p>
       </section>
 
@@ -77,7 +77,7 @@
       <section id="hungarian">
         <h2>Magyar Nyelvű Változat</h2>
         <p>
-          A <strong>Shared List</strong> felhasználói bármikor véglegesen törölhetik fiókjukat és az összes kapcsolódó felhőalapú adatot – akár azonnal az alkalmazáson belül, akár az alábbi online kérelmezési lehetőségeken keresztül, ha az alkalmazást már eltávolították.
+          A <strong>Shared List</strong> felhasználói bármikor véglegesen törölhetik fiókjukat és az összes kapcsolódó felhőalapú adatot – akár azonnal az alkalmazáson belül, akár az alábbi online űrlapon keresztül, ha az alkalmazást már eltávolították.
         </p>
 
         <h3>1. lehetőség: Fiók törlése az alkalmazáson belül (Azonnali)</h3>
@@ -101,7 +101,7 @@
 
         <h3>Feldolgozási határidő</h3>
         <p>
-          Az alkalmazáson belüli törlés azonnal megtörténik. Az online űrlapon vagy e-mailben érkező kérelmeket a beérkezéstől számított <strong>30 napon belül</strong> véglegesen teljesítjük.
+          Az alkalmazáson belüli törlés azonnal megtörténik. Az online űrlapon érkező kérelmeket a beérkezéstől számított <strong>30 napon belül</strong> véglegesen teljesítjük.
         </p>
       </section>
 
@@ -111,8 +111,7 @@
       <section id="deletion-form">
         <h2>Online Account Deletion Request / Online fióktörlési kérelem</h2>
         <p>
-          <strong>English:</strong> Submit a deletion request directly via our official Google Form, or generate a pre-filled deletion email below.<br />
-          <strong>Magyar:</strong> Nyújtsa be törlési kérelmét közvetlenül hivatalos Google űrlapunkon keresztül, vagy készítsen előre kitöltött törlési e-mailt az alábbi űrlappal.
+          Submit a deletion request directly via our official Google Form. / Nyújtsa be törlési kérelmét közvetlenül hivatalos Google űrlapunkon keresztül.
         </p>
 
         <p style="margin-top: 16px;">
@@ -120,27 +119,6 @@
             Open Account Deletion Form / Fióktörlési Űrlap
           </a>
         </p>
-
-        <form class="deletion-form" onsubmit="sendDeletionEmail(event)">
-          <div>
-            <label for="lang-select">Language / Nyelv</label>
-            <select id="lang-select">
-              <option value="en">English</option>
-              <option value="hu">Magyar</option>
-            </select>
-          </div>
-          <div>
-            <label for="account-email">Registered Google Account Email / Regisztrált Google e-mail cím *</label>
-            <input type="email" id="account-email" required placeholder="you@gmail.com" />
-          </div>
-          <div>
-            <label for="account-note">Additional Notes / Megjegyzés (Optional / Opcionális)</label>
-            <textarea id="account-note" rows="2" placeholder="Optional details / Opcionális megjegyzés..."></textarea>
-          </div>
-          <div>
-            <button type="submit" class="btn-secondary">Prepare Deletion Email / Törlési e-mail készítése</button>
-          </div>
-        </form>
       </section>
     </article>
   </main>
@@ -157,40 +135,5 @@
       <p>&copy; 2026 Völcsei Balázs E.V. All rights reserved.</p>
     </div>
   </footer>
-
-  <script>
-    function sendDeletionEmail(event) {
-      event.preventDefault();
-      const lang = document.getElementById('lang-select').value;
-      const email = document.getElementById('account-email').value.trim();
-      const note = document.getElementById('account-note').value.trim();
-
-      const subject = lang === 'hu'
-        ? 'Fióktörlési kérelem - Shared List'
-        : 'Delete My Account - Shared List';
-
-      const bodyLines = lang === 'hu'
-        ? [
-            'Tisztelt Völcsei Balázs E.V.!',
-            '',
-            'Kérem a Shared List alkalmazáshoz tartozó fiókom és minden kapcsolódó adatom végleges törlését.',
-            'Regisztrált Google e-mail cím: ' + email,
-            note ? 'Megjegyzés: ' + note : ''
-          ]
-        : [
-            'Hello Völcsei Balázs E.V.,',
-            '',
-            'Please permanently delete my Shared List account and all associated data.',
-            'Registered Google Account Email: ' + email,
-            note ? 'Additional Notes: ' + note : ''
-          ];
-
-      const mailtoUrl = 'mailto:balazs.volcsei@gmail.com'
-        + '?subject=' + encodeURIComponent(subject)
-        + '&body=' + encodeURIComponent(bodyLines.filter(Boolean).join('\n'));
-
-      window.location.href = mailtoUrl;
-    }
-  </script>
 </body>
 </html>
