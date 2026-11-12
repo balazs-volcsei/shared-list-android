@@ -1,1 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Account Deletion / Fióktörlés – Shared List</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .deletion-form {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-top: 16px;
+      max-width: 520px;
+    }
+    .deletion-form label {
+      font-weight: 600;
+      font-size: 0.95rem;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .deletion-form input,
+    .deletion-form textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.95rem;
+    }
+    .deletion-form input:focus,
+    .deletion-form textarea:focus {
+      outline: 2px solid var(--primary);
+      border-color: transparent;
+    }
+    .btn-secondary {
+      display: inline-block;
+      background: transparent;
+      color: var(--primary);
+      border: 1px solid var(--primary);
+      padding: 10px 22px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 0.95rem;
+      transition: background 0.2s, color 0.2s;
+    }
+    .btn-secondary:hover {
+      background: var(--primary);
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="brand">Shared List</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+        <a href="mailto:balazs.volcsei@gmail.com">Support</a>
+      </nav>
+    </div>
+  </header>
 
+  <main class="container">
+    <article class="legal-content">
+      <h1>Account &amp; Data Deletion / Fiók és adatok törlése</h1>
+      <p>
+        <strong>Application / Alkalmazás:</strong> Shared List - Android<br />
+        <strong>Developer / Fejlesztő:</strong> Völcsei Balázs E.V.<br />
+        <strong>Contact / Kapcsolat:</strong> <a href="mailto:balazs.volcsei@gmail.com">balazs.volcsei@gmail.com</a>
+      </p>
+
+      <div class="highlight-box">
+        <p style="margin-bottom: 0;">
+          <strong>Jump to language / Nyelv választása:</strong>
+          <a href="#english">English Version</a> &nbsp;|&nbsp;
+          <a href="#magyar">Magyar Nyelvű Változat</a>
+        </p>
+      </div>
+
+      <hr style="border: 0; border-top: 1px solid var(--border); margin: 28px 0;" />
+
+      <!-- ENGLISH VERSION -->
+      <section id="english">
+        <h2>English Version</h2>
+        <p>
+          Users of <strong>Shared List</strong> can permanently delete their account and all associated cloud data at any time—either immediately inside the application or via an external web request if the app has been uninstalled.
+        </p>
+
+        <h3>Option 1: Delete Your Account Inside the App (Immediate)</h3>
+        <ol>
+          <li>Open the <strong>Shared List</strong> app on your Android device.</li>
+          <li>Go to <strong>Settings</strong>.</li>
+          <li>Tap <strong>Delete Account</strong> and confirm your request.</li>
+        </ol>
+
+        <h3>Option 2: Request Deletion via Web Form (If Uninstalled)</h3>
+        <p>
+          If you no longer have the app installed on your device, submit a deletion request using our official online form:
+        </p>
+        <p>
+          <a href="https://forms.gle/Qs1NFNN1C1GR2w3d6" target="_blank" rel="noopener" class="btn">
+            Open Account Deletion Form
+          </a>
+        </p>
+
+        <h3>Option 3: Quick Email Request Generator</h3>
+        <p>
+          Alternatively, enter the Google email address associated with your account below to generate a pre-filled deletion request email:
+        </p>
+        <form class="deletion-form" onsubmit="sendDeletionEmail(event, 'en')">
+          <div>
+            <label for="email-en">Registered Google Account Email *</label>
+            <input type="email" id="email-en" required placeholder="you@gmail.com" />
+          </div>
+          <div>
+            <label for="note-en">Additional Notes (Optional)</label>
+            <textarea id="note-en" rows="2" placeholder="Optional details..."></textarea>
+          </div>
+          <div>
+            <button type="submit" class="btn-secondary">Prepare Deletion Email</button>
+          </div>
+        </form>
+
+        <h3>What Data Is Deleted vs. Retained</h3>
+        <ul>
+          <li><strong>Permanently Deleted:</strong> Your Firebase Authentication profile, email address, display name, profile photo URL, Firebase User ID, and all personal checklists and tasks owned by your account are permanently erased.</li>
+          <li><strong>Shared Lists:</strong> If you collaborated on lists owned by other users, your personal account identifiers are removed from those lists.</li>
+          <li><strong>Retained Records:</strong> Anonymized transaction records required for accounting and tax compliance via Google Play Billing may be retained as required by law, decoupled from your personal profile.</li>
+        </ul>
+
+        <h3>Processing Timeline</h3>
+        <p>
+          In-app deletions are executed immediately. Web form and email requests are verified and permanently completed within <strong>30 days</strong> of receipt.
+        </p>
+      </section>
+
+      <hr style="border: 0; border-top: 1px solid var(--border); margin: 36px 0;" />
+
+      <!-- MAGYAR VÁLTOZAT -->
+      <section id="magyar">
+        <h2>Magyar Nyelvű Változat</h2>
+        <p>
+          A <strong>Shared List</strong> felhasználói bármikor véglegesen törölhetik fiókjukat és az összes kapcsolódó felhőalapú adatot – akár azonnal az alkalmazáson belül, akár online kérelemmel, ha az alkalmazást már eltávolították.
+        </p>
+
+        <h3>1. lehetőség: Fiók törlése az alkalmazáson belül (Azonnali)</h3>
+        <ol>
+          <li>Nyissa meg a <strong>Shared List</strong> alkalmazást Android készülékén.</li>
+          <li>Lépjen a <strong>Beállítások</strong> menüpontba.</li>
+          <li>Koppintson a <strong>Fiók törlése</strong> opcióra, majd erősítse meg a kérést.</li>
+        </ol>
+
+        <h3>2. lehetőség: Törlés igénylése online űrlapon (Ha már törölte az alkalmazást)</h3>
+        <p>
+          Amennyiben az alkalmazás már nincs telepítve a készülékére, nyújtsa be törlési kérelmét hivatalos online űrlapunkon keresztül:
+        </p>
+        <p>
+          <a href="https://forms.gle/Qs1NFNN1C1GR2w3d6" target="_blank" rel="noopener" class="btn">
+            Fióktörlési Kérelem Űrlap megnyitása
+          </a>
+        </p>
+
+        <h3>3. lehetőség: Gyors e-mail kérelem készítése</h3>
+        <p>
+          Alternatív megoldásként adja meg a fiókjához tartozó Google e-mail címet az alábbi mezőben egy előre kitöltött törlési e-mail létrehozásához:
+        </p>
+        <form class="deletion-form" onsubmit="sendDeletionEmail(event, 'hu')">
+          <div>
+            <label for="email-hu">Regisztrált Google fiók e-mail címe *</label>
+            <input type="email" id="email-hu" required placeholder="nev@gmail.com" />
+          </div>
+          <div>
+            <label for="note-hu">Megjegyzés (Opcionális)</label>
+            <textarea id="note-hu" rows="2" placeholder="Opcionális megjegyzés..."></textarea>
+          </div>
+          <div>
+            <button type="submit" class="btn-secondary">Törlési e-mail megnyitása</button>
+          </div>
+        </form>
+
+        <h3>Törölt és megőrzött adatok köre</h3>
+        <ul>
+          <li><strong>Véglegesen törölt adatok:</strong> A Firebase Authentication profil, e-mail cím, megjelenített név, profilkép URL, Firebase felhasználói azonosító, valamint az Ön által létrehozott összes személyes lista és feladat véglegesen törlésre kerül.</li>
+          <li><strong>Megosztott listák:</strong> Más felhasználók tulajdonában lévő közös listákból az Ön személyes azonosítói eltávolításra kerülnek.</li>
+          <li><strong>Megőrzött adatok:</strong> A Google Play Billing rendszerén keresztül történt vásárlások számviteli és adózási jogszabályok által előírt, személyes profiltól függetlenített bizonylati adatai a törvényi előírásoknak megfelelő ideig megőrzésre kerülhetnek.</li>
+        </ul>
+
+        <h3>Feldolgozási határidő</h3>
+        <p>
+          Az alkalmazáson belüli törlés azonnal megtörténik. Az online űrlapon vagy e-mailben érkező kérelmeket a beérkezéstől számított <strong>30 napon belül</strong> véglegesen teljesítjük.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+        <a href="delete-account.html">Account Deletion</a>
+        <a href="mailto:balazs.volcsei@gmail.com">balazs.volcsei@gmail.com</a>
+      </div>
+      <p>&copy; 2026 Völcsei Balázs E.V. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function sendDeletionEmail(event, lang) {
+      event.preventDefault();
+      const email = document.getElementById('email-' + lang).value.trim();
+      const note = document.getElementById('note-' + lang).value.trim();
+
+      const subject = lang === 'hu'
+        ? 'Fióktörlési kérelem - Shared List'
+        : 'Delete My Account - Shared List';
+
+      const bodyLines = lang === 'hu'
+        ? [
+            'Tisztelt Völcsei Balázs E.V.!',
+            '',
+            'Kérem a Shared List alkalmazáshoz tartozó fiókom és minden kapcsolódó adatom végleges törlését.',
+            'Regisztrált Google e-mail cím: ' + email,
+            note ? 'Megjegyzés: ' + note : ''
+          ]
+        : [
+            'Hello Völcsei Balázs E.V.,',
+            '',
+            'Please permanently delete my Shared List account and all associated data.',
+            'Registered Google Account Email: ' + email,
+            note ? 'Additional Notes: ' + note : ''
+          ];
+
+      const mailtoUrl = 'mailto:balazs.volcsei@gmail.com'
+        + '?subject=' + encodeURIComponent(subject)
+        + '&body=' + encodeURIComponent(bodyLines.filter(Boolean).join('\n'));
+
+      window.location.href = mailtoUrl;
+    }
+  </script>
+</body>
+</html>
