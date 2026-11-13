@@ -1,5 +1,13 @@
 # Shared List - Android
 
+[![Website](https://img.shields.io/badge/Website-Live-brightgreen.svg)](https://balazs-volcsei.github.io/shared-list-android/)
+[![Google Play](https://img.shields.io/badge/Google_Play-Coming_Soon-blue.svg)](#)
+
+> **Looking for the app, privacy policy, or account deletion?** 
+> Visit the official website: [balazs-volcsei.github.io/shared-list-android](https://balazs-volcsei.github.io/shared-list-android/)
+
+---
+
 **Shared List** is a modern, efficient, and collaborative checklist application designed for Android. Built with modern Android tools, it allows users to manage tasks individually or collaborate with others via real-time synchronization.
 
 ![Android](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android) ![Min SDK](https://img.shields.io/badge/Min_SDK-24-brightgreen?logo=android) ![Kotlin](https://img.shields.io/badge/Kotlin-2.4.0-7F52FF?logo=kotlin) ![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-2026.06.01-4285F4?logo=jetpackcompose) ![MVVM Architecture](https://img.shields.io/badge/Architecture-MVVM-FF6F61) ![Room DB](https://img.shields.io/badge/Room-2.8.4-3DDC84?logo=android) ![Dagger Hilt](https://img.shields.io/badge/Dagger_Hilt-2.60-007396?logo=dagger) ![Coroutines & Flow](https://img.shields.io/badge/Coroutines_&_Flow-blue?logo=kotlin) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase) ![Google Play Billing](https://img.shields.io/badge/Google_Play_Billing-4285F4?logo=googleplay) ![AdMob](https://img.shields.io/badge/AdMob-EA4335?logo=googleadmob)
@@ -29,22 +37,22 @@
 
 <p align="center">
 <img width="1280" height="720" alt="sharedlist-social-preview" src="https://github.com/user-attachments/assets/419040e9-edf5-4b3a-be6b-ce8bc3523b4f" />
-
+</p>
 <br/>
-<br/>
 
-## Privacy Policy
+## Legal & Compliance
 
-The Privacy Policy for this application is available in both English and Hungarian:  
-[Privacy Policy / Adatvédelmi Irányelvek](PRIVACY-POLICY.md)
+All legal and compliance documents (available in both English and Hungarian) are hosted on the official project website:
+- [Privacy Policy](https://balazs-volcsei.github.io/shared-list-android/privacy-policy.html)
+- [Terms of Service](https://balazs-volcsei.github.io/shared-list-android/terms-of-service.html)
+- [Account Deletion](https://balazs-volcsei.github.io/shared-list-android/delete-account.html)
 
 ## Developer
 
-**Balázs Völcsei**  
+**Völcsei Balázs E.V.**  
 *Android Developer*
 
 - **LinkedIn:** [balazs-volcsei](https://www.linkedin.com/in/balazs-volcsei/)
-- **Website:** [balazs-volcsei](https://sites.google.com/view/balazs-volcsei/home)
 - **Email:** balazs.volcsei@gmail.com
 
 ---
