@@ -532,7 +532,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 12px 24px;
+  gap: 10px 12px;
   margin-bottom: 14px;
 }
 
@@ -540,6 +540,14 @@ footer {
   color: var(--text-muted);
   text-decoration: none;
   transition: color 0.2s;
+}
+
+.footer-links a:not(:last-child)::after {
+  content: "\2022";
+  display: inline-block;
+  margin-left: 12px;
+  color: var(--text-muted);
+  opacity: 0.6;
 }
 
 .footer-links a:hover {
@@ -565,6 +573,10 @@ footer {
     padding: 0 16px;
   }
 
+  .brand {
+    display: none;
+  }
+
   .nav {
     flex-direction: column;
     align-items: center;
@@ -573,12 +585,14 @@ footer {
 
   .nav-links {
     justify-content: center;
-    gap: 4px;
+    flex-wrap: nowrap;
+    gap: 2px;
   }
 
   .nav-links a {
-    font-size: 0.85rem;
-    padding: 5px 10px;
+    font-size: 0.8rem;
+    padding: 5px 6px;
+    white-space: nowrap;
   }
 
   .grid,
@@ -603,7 +617,30 @@ footer {
   }
 
   .footer-links {
-    gap: 10px 16px;
+    gap: 8px 8px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 380px) {
+  .nav {
+    max-width: 100%;
+  }
+
+  .nav-links {
+    max-width: 100%;
+    overflow-x: auto;
+    justify-content: flex-start;
+    scrollbar-width: none;
+  }
+
+  .nav-links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-links a {
+    font-size: 0.75rem;
+    padding: 5px 4px;
   }
 }
 
