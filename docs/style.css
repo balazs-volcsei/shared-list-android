@@ -40,7 +40,6 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 90px;
 }
 
 body {
@@ -433,4 +432,9 @@ footer {
   .footer-links {
     gap: 10px 16px;
   }
+}
+
+/* Offset for sticky header anchor jumps */
+section[id] {
+  scroll-margin-top: 100px;
 }
