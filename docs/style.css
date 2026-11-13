@@ -105,7 +105,7 @@ header {
   font-size: 0.92rem;
   font-weight: 500;
   padding: 6px 14px;
-  border-radius: 999px;
+  border-radius: 6px;
   transition: background-color 0.2s, color 0.2s;
 }
 
@@ -131,7 +131,7 @@ header {
   background: var(--badge-bg);
   color: var(--badge-text);
   padding: 6px 16px;
-  border-radius: 999px;
+  border-radius: 6px;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.01em;
@@ -157,36 +157,41 @@ h1 {
   margin-bottom: 40px;
 }
 
+/* Unified Rectangular Buttons */
 .btn,
 .legal-content a.btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: var(--primary);
   color: #ffffff;
-  padding: 13px 28px;
-  border-radius: 12px;
+  border: 1px solid var(--primary);
+  padding: 12px 26px;
+  border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.98rem;
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
-  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
 }
 
 .btn:hover,
 .legal-content a.btn:hover {
   background: var(--primary-hover);
+  border-color: var(--primary-hover);
   color: #ffffff;
-  transform: translateY(-1px);
 }
 
 .btn-disabled {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: var(--surface);
   color: var(--text-muted);
   border: 1px solid var(--border);
-  padding: 13px 28px;
-  border-radius: 12px;
+  padding: 12px 26px;
+  border-radius: 8px;
   font-weight: 600;
-  font-size: 0.98rem;
+  font-size: 0.95rem;
   cursor: default;
 }
 
@@ -199,12 +204,12 @@ h1 {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 20px;
+  border-radius: 12px;
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
 }
 
-/* Feature Grid (3 cols large, 2 cols tablet, 1 col mobile) */
+/* Feature Grid */
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -215,7 +220,7 @@ h1 {
 .card {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 18px;
+  border-radius: 12px;
   padding: 26px;
   box-shadow: var(--card-shadow);
   transition: transform 0.2s, border-color 0.2s;
@@ -229,7 +234,7 @@ h1 {
 .card-icon {
   width: 42px;
   height: 42px;
-  border-radius: 12px;
+  border-radius: 8px;
   background: var(--badge-bg);
   color: var(--badge-text);
   display: flex;
@@ -256,11 +261,11 @@ h1 {
   line-height: 1.6;
 }
 
-/* Legal Document Container (Constrained to 840px for readability) */
+/* Legal Document Container */
 .legal-content {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 18px;
+  border-radius: 12px;
   padding: clamp(24px, 5vw, 44px);
   margin: 40px auto;
   max-width: 840px;
@@ -303,12 +308,51 @@ h1 {
   text-underline-offset: 3px;
 }
 
+/* Jump Links Section */
 .highlight-box {
   background: var(--badge-bg);
   border-left: 4px solid var(--primary);
   padding: 16px 20px;
-  border-radius: 10px;
+  border-radius: 8px;
   margin: 22px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.jump-label {
+  font-weight: 600;
+  color: var(--badge-text);
+  margin-right: 4px;
+  font-size: 0.95rem;
+}
+
+.jump-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn-jump {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 6px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-jump:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: var(--surface-hover);
 }
 
 /* Footer */
